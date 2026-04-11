@@ -1,4 +1,4 @@
-.wwdgen{
+.getingen{
  display: flex;
 align-items: center;
 justify-content: center;
@@ -10,21 +10,22 @@ flex-direction: column;
 
 }
 
-.ow{
+.ta{
 color: #e8b130;
 font-size: 14px;
 font-family: sans-serif;
 font-weight: 700;
 letter-spacing: 2px;
-
 }
 
-.what{
- font-size: 36px;
+.gi{
+  font-size: 36px;
     font-family: sans;
     color: #261b32;
     font-weight: 700;
 }
+
+
 
 /* MAPPING */
 
@@ -34,6 +35,8 @@ grid-template-columns: repeat(3, 1fr);
 gap: 30px;
 }
 
+
+
 .eachofthem{
     display: flex;
 flex-direction: column;
@@ -41,12 +44,10 @@ gap: 10px;
     padding: 25px;
 border: 1px solid #e5e7eb;
 border-radius: 14px;
-
 }
 
-
 .icn{
-    display: flex;
+display: flex;
     justify-content: center;
     padding: 10px;
 background-color: #f7edf2;
@@ -71,5 +72,22 @@ color: #261b32;
 .para{
 font-size: 14px;
 color: #73677e;
+}
+
+.learn{
+    display: flex;
+    align-items: center;
+position: relative; 
+top: 18px;
+color: #8033cc;
+font-weight: 600;
+font-size: 14px;
+font-family: sans-serif;
+}
+
+.specialLearn{
+    display: flex;
+    position: relative;
+     top: 0;
 
 }

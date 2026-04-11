@@ -3,6 +3,8 @@ import Navbar from "@/Components/Navbar/Navbar";
 import About from "@/Components/About/About";
 import Wwd from "@/Components/Wwd/Wwd";
 import Purpose from "@/Components/Purpose/Purpose";
+import Hww from "@/Components/Hww/Hww";
+import Getin from "@/Components/Getin/Getin";
 
 
 export default function Home() {
@@ -36,6 +38,20 @@ export default function Home() {
 <div id="wwd">
   <Wwd/>
 </div>
+
+
+
+<div id="hww">
+  <Hww/>
+</div>
+
+
+
+<div id="getin">
+  <Getin/>
+</div>
+
+
 
 
   </div>

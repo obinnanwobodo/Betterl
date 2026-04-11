@@ -32,7 +32,7 @@ const Navbar = () => {
         <a className={`${styles.l1}`} href="#">Home</a>
         <a className={`${styles.l2}`} href="#about">About</a>
         <a className={`${styles.l3}`} href="#wwd">What We Do</a>
-        <a className={`${styles.l4}`} href="#get">Get Involved</a>
+        <a className={`${styles.l4}`} href="#getin">Get Involved</a>
         <a className={`${styles.l5}`} href="#contact">Contact</a>
       </div>
 
