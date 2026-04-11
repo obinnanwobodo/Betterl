@@ -1,3 +1,89 @@
-.hero{
-    color: rebeccapurple;
+.genhero{
+
+}
+
+.bgimg {
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(79, 29, 129, 0.85),
+    rgba(168, 85, 247, 0.6));
+ z-index: 1;
+}
+
+  .herocontent {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+}
+.herocontent h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: sans;
+  line-height: 60px;
+}
+
+.herocontent p{
+  color: #ffffffd9;
+font-size: 20px;
+font-family: sans-serif;
+padding-top: 18px;
+}
+
+
+
+
+.btns{
+    display: flex; 
+justify-content: center; 
+gap: 20px;
+position: relative; 
+ top:50px;
+ 
+}
+ 
+ 
+.btn1{
+    background-color: #e8b130;
+    color: #453208;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+width: 150px;
+
+}
+
+.btn2{
+color: #ffffff;
+ border-radius: 10px;
+    padding: 14px;
+    font-size: 14px;
+    border: 1px solid #add;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+width: 140px;
+
 }

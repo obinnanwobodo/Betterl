@@ -1,18 +1,37 @@
 import Hero from "@/Components/Hero/Hero";
 import Navbar from "@/Components/Navbar/Navbar";
-import Image from "next/image";
+import About from "@/Components/About/About";
+import Wwd from "@/Components/Wwd/Wwd";
+
 
 export default function Home() {
   return (
   <div>
-      <div>
+
+      <div id="navbar">
       <Navbar/>
     </div>
 
 
-  <div>
+  <div id="hero">
       <Hero/>
     </div>
+
+
+
+<div id="about">
+  <About/>
+</div>
+
+
+
+<div id="wwd">
+  <Wwd/>
+</div>
+
+
+
   </div>
+
   );
 }
