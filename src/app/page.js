@@ -2,6 +2,7 @@ import Hero from "@/Components/Hero/Hero";
 import Navbar from "@/Components/Navbar/Navbar";
 import About from "@/Components/About/About";
 import Wwd from "@/Components/Wwd/Wwd";
+import Purpose from "@/Components/Purpose/Purpose";
 
 
 export default function Home() {
@@ -25,10 +26,16 @@ export default function Home() {
 
 
 
+
+<div id="purpose">
+  <Purpose/>
+</div>
+
+
+
 <div id="wwd">
   <Wwd/>
 </div>
-
 
 
   </div>

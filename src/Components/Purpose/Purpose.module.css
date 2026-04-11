@@ -1,0 +1,72 @@
+.purposegen{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    background-color: #f2f0f4;
+    height: 620px;
+    gap: 10px;
+}
+
+.ppo{
+color: #e8b130;
+font-size: 14px;
+font-family: sans-serif;
+font-weight: 700;
+letter-spacing: 2px;
+}
+
+.vis{
+ font-size: 36px;
+    font-family: sans;
+    color: #261b32;
+    font-weight: 700;
+}
+
+
+
+/* MAPPING */
+
+.mappinggen{
+    display: flex;
+gap: 30px;
+    padding-top: 30px;
+
+}
+
+.eachofthem{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 243, 243);
+    gap: 10px;
+   border-radius: 10px;
+   padding: 40px;
+   border: 1px solid #e5e7eb;
+
+}
+
+
+.missionCard{
+    background-color:#faf0f5 ;
+}
+
+
+.icon svg{
+    width: 35px;
+    height: 40px;
+    color: #8033cc;
+
+}
+
+.tittle{
+    font-size: 20px;
+    font-family: sans;
+    font-weight: 700;
+    color: #261b32;
+}
+
+.para{
+    font-size: 16px;
+    color: #73677e;
+    font-family: sans-serif;
+}

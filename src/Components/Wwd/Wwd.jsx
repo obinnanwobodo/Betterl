@@ -3,7 +3,7 @@ import styles from './Wwd.module.css'
 
 const Wwd = () => {
   return (
-    <div>Wwd</div>
+    <div></div>
   )
 }
 
