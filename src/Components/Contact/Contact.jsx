@@ -40,7 +40,7 @@ const Contact = () => {
                         <div><AiOutlineMail /></div>
                         <div className={`${styles.ei}`}>
                             <h2>Email</h2>
-                            <p>info@betterlifegcf.org</p>
+                            <p>Betterlifegendercare@gmail.com</p>
                         </div>
                     </div>
 
