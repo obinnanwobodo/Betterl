@@ -5,6 +5,9 @@ import Wwd from "@/Components/Wwd/Wwd";
 import Purpose from "@/Components/Purpose/Purpose";
 import Hww from "@/Components/Hww/Hww";
 import Getin from "@/Components/Getin/Getin";
+import Together from "@/Components/Together/Together";
+import Contact from "@/Components/Contact/Contact";
+
 
 
 export default function Home() {
@@ -49,6 +52,16 @@ export default function Home() {
 
 <div id="getin">
   <Getin/>
+</div>
+
+
+<div id="Together">
+  <Together/>
+</div>
+
+
+<div id="contact">
+  <Contact/>
 </div>
 
 

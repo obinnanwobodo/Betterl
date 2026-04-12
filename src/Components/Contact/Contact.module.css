@@ -1,0 +1,230 @@
+.contactgen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f0f4;
+    gap: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reach {
+    color: #e8b130;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cu {
+    font-size: 36px;
+    font-family: sans;
+    color: #261b32;
+    font-weight: 700;
+}
+
+.detailndform {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.detail svg {
+    background-color: #f7edf2;
+    color: #8033cc;
+    width: 20px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.phone {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.po {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phone h2 {
+    font-size: 16px;
+    color: #261b32;
+    font-weight: 600;
+
+    font-family: sans;
+}
+
+.phone p {
+    font-size: 14px;
+    color: #73677e;
+    font-family: sans-serif;
+
+}
+
+.email {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.email h2 {
+    font-size: 16px;
+    color: #261b32;
+    font-family: sans;
+    font-weight: 600;
+
+
+}
+
+.email p {
+    font-size: 14px;
+    color: #73677e;
+    font-family: sans-serif;
+
+}
+
+.ei {
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.address h2 {
+    font-size: 16px;
+    color: #261b32;
+    font-family: sans;
+    font-weight: 600;
+
+}
+
+.address p {
+    font-size: 14px;
+    color: #73677e;
+    font-family: sans-serif;
+}
+
+.an {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* FORM */
+
+
+.formgen {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    min-width: 500px;
+    min-height: 380px;
+    gap: 20px;
+}
+
+.formgen h2 {
+    font-size: 14px;
+    color: #261b32;
+    font-family: sans-serif;
+}
+
+.formgen input::placeholder {
+    background-color: #fcfcfd;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: max-content;
+}
+
+.namegen {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.namegen input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+     background-color: #fcfcfd;
+     
+}
+
+.formgen input:focus,
+.formgen textarea:focus {
+    outline: none;
+    border-color: #8033cc;
+}
+
+.emailgen {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+
+.emailgen input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+     background-color: #fcfcfd;
+}
+
+
+.messagegen {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+.messagegen textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #fcfcfd;
+font-size: 12px;
+    min-height: 120px;
+
+    /* 🔥 THIS is the real fix */
+    line-height: 1.4;
+}
+
+
+.formgen button {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #8033cc;
+    min-width: 300px;
+    border-radius: 10px;
+    min-height: 43px;
+    align-items: center;
+}
