@@ -24,8 +24,9 @@ const Hero = () => {
           <p>Empowering women, advancing equality, and advocating for rights through education, advocacy, and inclusive platforms.</p>
 
 <div className={styles.btns}>
-  <button className={styles.btn1}>Get Involved</button>
-  <button className={styles.btn2}>Learn More</button>
+  <a className={styles.btn1} href="#getin">Get Involved</a>
+  <a  className={styles.btn2} href="#about">Learn More</a>
+  
 </div>
 
 
