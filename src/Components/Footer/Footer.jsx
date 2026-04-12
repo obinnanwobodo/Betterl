@@ -77,7 +77,7 @@ const Footer = () => {
       <div className={styles.divider}></div>
 
       <p className={styles.copy}>
-        © 2026 Betterlife Gender Care Foundation All rights reserved.
+        © 2026 Betterlife Gender Care Foundation.. All rights reserved.
       </p>
 
     <h2 className={styles.devtext}>
