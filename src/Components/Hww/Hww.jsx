@@ -9,7 +9,7 @@ const Hww = () => {
         <p>Our Approach</p>
 
         <h3>
-            We work through collaboration, inclusiveness, and sustainability. By partnering with <br />communities, governments, and like-minded organizations, we create lasting impact. Our <br />programs are designed to be participatory—centering the voices of women and girls at <br />every stage, ensuring solutions are rooted in real experiences and driven by those most <br />affected.
+            We work through collaboration, inclusiveness, and sustainability. By partnering with communities, governments, and like-minded organizations, we create lasting impact. Our programs are designed to be participatory—centering the voices of women and girls at every stage, ensuring solutions are rooted in real experiences and driven by those most affected.
         </h3>
 
     </div>

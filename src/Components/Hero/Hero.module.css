@@ -77,6 +77,10 @@ cursor: pointer;
 
 }
 
+.btn1:hover{
+  background-color: #cf9c23
+}
+
 .btn2{
 color: #ffffff;
  border-radius: 10px;
@@ -89,3 +93,109 @@ width: 140px;
 cursor: pointer;
 
 }
+
+.btn2:hover{
+  background-color: 
+  rgba(248, 241, 241, 0.05);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  .bgimg {
+    height: 550px;
+  }
+
+  .herocontent {
+    width: 90%;
+  }
+
+  .herocontent h2 {
+    font-size: 42px;
+  }
+
+  .herocontent p {
+    font-size: 18px;
+  }
+
+  .btns {
+    top: 35px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .bgimg {
+    height: 500px;
+  }
+
+  .herocontent {
+    width: 92%;
+    top: 52%;
+  }
+
+  .herocontent h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .herocontent p {
+    font-size: 14px;
+    padding-top: 12px;
+  }
+
+  .btns {
+    flex-direction: column;
+    gap: 12px;
+    top: 25px;
+    align-items: center;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 180px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+  .bgimg {
+    height: 450px;
+  }
+
+  .herocontent h2 {
+    font-size: 24px;
+  }
+
+  .herocontent p {
+    font-size: 13px;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 160px;
+    padding: 12px;
+    font-size: 13px;
+  }
+}
+
+
+
+

@@ -1,72 +1,109 @@
-.purposegen{
-    display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-    background-color: #f2f0f4;
-    height: 620px;
-    gap: 10px;
+.purposegen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #f2f0f4;
+
+  /* ❌ remove fixed height */
+  padding: 80px 20px;
+
+  gap: 10px;
+  text-align: center;
 }
 
-.ppo{
-color: #e8b130;
-font-size: 14px;
-font-family: sans-serif;
-font-weight: 700;
-letter-spacing: 2px;
+.ppo {
+  color: #e8b130;
+  font-size: clamp(12px, 2vw, 14px);
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.vis{
- font-size: 36px;
-    font-family: sans;
-    color: #261b32;
-    font-weight: 700;
+.vis {
+  font-size: clamp(24px, 4vw, 36px);
+  font-family: sans-serif;
+  color: #261b32;
+  font-weight: 700;
 }
 
+/* ===================== */
+/* CARDS CONTAINER */
+/* ===================== */
 
+.mappinggen {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 30px;
 
-/* MAPPING */
-
-.mappinggen{
-    display: flex;
-gap: 30px;
-    padding-top: 30px;
-
+  padding-top: 40px;
+  width: 100%;
+  max-width: 1000px;
 }
 
-.eachofthem{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(245, 243, 243);
-    gap: 10px;
-   border-radius: 10px;
-   padding: 40px;
-   border: 1px solid #e5e7eb;
+/* ===================== */
+/* EACH CARD */
+/* ===================== */
 
+.eachofthem {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 243, 243);
+
+  gap: 10px;
+  border-radius: 10px;
+  padding: 30px;
+
+  border: 1px solid #e5e7eb;
+
+  transition: all 0.3s ease;
 }
 
-
-.missionCard{
-    background-color:#faf0f5 ;
+.eachofthem:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
 }
 
-
-.icon svg{
-    width: 35px;
-    height: 40px;
-    color: #8033cc;
-
+.missionCard {
+  background-color: #faf0f5;
 }
 
-.tittle{
-    font-size: 20px;
-    font-family: sans;
-    font-weight: 700;
-    color: #261b32;
+/* ICON */
+.icon svg {
+  width: 35px;
+  height: 40px;
+  color: #8033cc;
 }
 
-.para{
-    font-size: 16px;
-    color: #73677e;
-    font-family: sans-serif;
+/* TITLE */
+.tittle {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #261b32;
+}
+
+/* TEXT */
+.para {
+  font-size: clamp(14px, 2vw, 16px);
+  color: #73677e;
+  font-family: sans-serif;
+  line-height: 1.6;
+
+  white-space: pre-line;
+}
+
+/* ===================== */
+/* 📱 MOBILE RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+  .mappinggen {
+    grid-template-columns: 1fr;
+  }
+
+  .eachofthem {
+    padding: 25px;
+  }
 }

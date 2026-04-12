@@ -15,35 +15,35 @@ const array =[
 {
 icon:<IoMdHeartEmpty />,
 tittle: "Volunteer With Us",
-paragraph: "Dedicate your time and skills to support our \nprograms and initiatives on the ground.",
+paragraph: "Dedicate your time and skills to support our programs and initiatives on the ground.",
 learn: "Learn More →"
 
 },
 {
 icon:<FaRegHandshake />,
 tittle: "Partner With Us",
-paragraph: "Collaborate with us as an organization, institution, \nor corporate partner to amplify impact.",
+paragraph: "Collaborate with us as an organization, institution, or corporate partner to amplify impact.",
 learn: "Learn More →"
 
 },
 {
 icon:<IoGiftOutline />,
 tittle: "Support Our Work",
-paragraph: "Your financial contributions help us sustain \nprograms, reach more women, and scale our \nimpact.",
+paragraph: "Your financial contributions help us sustain programs, reach more women, and scale our \nimpact.",
 learn: "Learn More →"
 
 },
 {
 icon:<LuPenLine />,
 tittle: "Share Your Story",
-paragraph: "Your lived experience can inspire change. Share \nyour story to help amplify women's voices.",
+paragraph: "Your lived experience can inspire change. Share your story to help amplify women's voices.",
 learn: "Learn More →"
 
 },
 {
 icon:<MdOutlineCampaign />,
 tittle: "Be an Advocate",
-paragraph: "Use your platform and influence to champion \ngender equality in your community and beyond.",
+paragraph: "Use your platform and influence to champion gender equality in your community and beyond.",
 learn: "Learn More →"
 
 },

@@ -18,10 +18,10 @@ const Hero = () => {
 
         <div className={styles.herocontent}>
           <h2>
-            A world where every woman's <br />voice is heard, valued, and <br />protected.
+            A world where every woman's voice is heard, valued, and protected.
           </h2>
 
-          <p>Empowering women, advancing equality, and advocating for rights through <br />education, advocacy, and inclusive platforms.</p>
+          <p>Empowering women, advancing equality, and advocating for rights through education, advocacy, and inclusive platforms.</p>
 
 <div className={styles.btns}>
   <button className={styles.btn1}>Get Involved</button>

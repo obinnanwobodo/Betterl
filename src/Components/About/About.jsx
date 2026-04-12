@@ -9,7 +9,7 @@ const About = () => {
 
     <h3>Who We Are</h3>
 
-    <h4>Betterlife Gender Care Foundation is a purpose-driven nonprofit organization committed to <br />advancing gender equality, protecting women's rights, and creating inclusive spaces where <br />women and girls can thrive. We believe that when women are empowered, communities <br />grow stronger, fairer, and more resilient.</h4>
+    <h4>Betterlife Gender Care Foundation is a purpose-driven nonprofit organization committed to advancing gender equality, protecting women's rights, and creating inclusive spaces where women and girls can thrive. We believe that when women are empowered, communities grow stronger, fairer, and more resilient.</h4>
 
     </div>
   )

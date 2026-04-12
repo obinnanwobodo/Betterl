@@ -1,0 +1,136 @@
+.footer {
+    background-color: #241a33;
+    color: #fff;
+    padding: 60px 80px 25px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footerCol {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* LOGO */
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: sans;
+}
+
+/* DESCRIPTION */
+.desc {
+    color: #cfc9d8;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 320px;
+     color: #ffffff99;
+font-family: sans-serif;
+}
+
+/* TITLE */
+.title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: sans;
+
+}
+
+/* LINKS */
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    color: #ffffff99;
+    font-size: 14px;
+font-family: sans-serif;
+
+}
+
+.links li {
+    color: #cfc9d8;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+
+
+/* SOCIAL ICONS */
+.socials {
+    display: flex;
+    gap: 12px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background: #3a2a52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    background: #e8b130;
+    color: #241a33;
+}
+
+/* DIVIDER */
+.divider {
+    margin: 35px 0 20px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* COPYRIGHT */
+.copy {
+    text-align: center;
+    font-size: 13px;
+    color: #bdb6c9;
+    font-size: 14px;
+
+}
+
+
+.devtext {
+    font-size: 14px;
+    color: #bdb6c9;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+
+
+
+.devlink {
+    color: #e8b130;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+      margin-left: 6px;
+}
+
+.devlink:hover {
+    color: #ffffff;
+}

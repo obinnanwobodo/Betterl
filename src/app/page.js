@@ -7,6 +7,7 @@ import Hww from "@/Components/Hww/Hww";
 import Getin from "@/Components/Getin/Getin";
 import Together from "@/Components/Together/Together";
 import Contact from "@/Components/Contact/Contact";
+import Footer from "@/Components/Footer/Footer";
 
 
 
@@ -60,10 +61,15 @@ export default function Home() {
 </div>
 
 
+
 <div id="contact">
   <Contact/>
 </div>
 
+
+<div id="footer">
+  <Footer/>
+</div>
 
 
 

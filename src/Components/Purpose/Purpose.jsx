@@ -12,7 +12,7 @@ const array = [
     {
         icon: <MdOutlineRemoveRedEye />,
         tittle: 'Our Vision',
-        paragraph: 'A society where women and girls enjoy equal \nrights, opportunities, dignity, and freedom from \ndiscrimination, regardless of background or\n circumstance.'
+        paragraph: 'A society where women and girls enjoy equal rights, opportunities, dignity, and freedom from discrimination, regardless of background or circumstance.'
 
     }
     ,
@@ -20,7 +20,7 @@ const array = [
     {
         icon: <LuTarget />,
         tittle: 'Our Mission',
-        paragraph: "To advocate for gender equality and women's \nrights through education, empowerment, policy\n engagement, and inclusive platforms that amplify \nwomen's voices and lived experiences."
+        paragraph: "To advocate for gender equality and women's rights through education, empowerment, policy engagement, and inclusive platforms that amplify women's voices and lived experiences."
 
     }
 
