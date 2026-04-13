@@ -13,22 +13,23 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Better Life Gender Care",
-  description: "Empowering women, advancing equality, and advocating for rights.",
-      url: "https://www.betterlifegendercare.org",
-    siteName: "Better Life Gender Care",
-    type: "website",
+  description:
+    "Empowering women, advancing equality, and advocating for rights.",
+
+  metadataBase: new URL("https://www.betterlifegendercare.org"),
 
   icons: {
-    icon: [
-      {
-        url: "../../public/Images/photo_2026-04-10_22-41-29.jpg",
-        type: "image/png",
-        sizes: "32x32",
-      },
-      // You can add more icons here
-    ],
+    icon: "/Images/photo_2026-04-10_22-41-29.jpg",
   },
 
+  openGraph: {
+    title: "Better Life Gender Care",
+    description:
+      "Empowering women, advancing equality, and advocating for rights.",
+    url: "https://www.betterlifegendercare.org",
+    siteName: "Better Life Gender Care",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -37,6 +38,15 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* Forces favicon in browser immediately (fixes caching issues) */}
+        <link
+          rel="icon"
+          href="/Images/photo_2026-04-10_22-41-29.jpg"
+          type="image/jpeg"
+        />
+      </head>
+
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
